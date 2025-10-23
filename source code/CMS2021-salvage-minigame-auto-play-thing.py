@@ -35,7 +35,7 @@ def clicker():
                 if len(blue_pixels) > 0:
                     clicked_mouse = False
 
-keyboard.add_hotkey("s",toggle_running)
+keyboard.add_hotkey("l",toggle_running)
 
 threading.Thread(target=clicker, daemon=True).start()
 
